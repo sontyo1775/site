@@ -1,15 +1,28 @@
 body {
     background-color: rgba(255, 255, 255, 0.142);
 }
+.header-image-logo:hover {
+    background-color: rgba(255, 255, 255, 0.61);
+}
 .header-color {
     background-color: rgba(227, 225, 225, 0.318);
+}
+.header-text-color {
+    color: black;
 }
 .btn-color {
     background-color: orange;
     padding: 10px;
     color: white;
 }
+
 .btn-color:hover{
     background-color: rgb(210, 137, 0);
     color: white;
+}
+/* コンテナイメージ画像サイズ */
+.img-fixed {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
 }

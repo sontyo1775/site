@@ -59,7 +59,7 @@ function templateImages(id,city,detail,image){
     wrapper.innerHTML = 
     `<div class="mt-5">
         <div class="card" style="width: 18rem;">
-        <img src="./images/${image}" class="card-img-top" alt="...">
+        <img src="./images/${image}" class="card-img-top img-fixed" alt="...">
         <div class="card-body">
             <h5 class="card-title">${city}</h5>
             <p class="card-text">${detail}</p>
