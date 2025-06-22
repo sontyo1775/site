@@ -41,8 +41,6 @@ const test = document.querySelector('#test');
 console.log(test);
 
 imagesObj.forEach(function(obj){
-    // console.log(obj.city);
-    // console.log(obj.detail);
 
     let id = obj.id;
     let city = obj.city;
@@ -50,12 +48,11 @@ imagesObj.forEach(function(obj){
     let image = obj.image;
 
     let result = templateImages(id,city,detail,image);
-    console.log(result);
     test.appendChild(result);
 })
 
 
-// イメージコンテナ
+// Add イメージコンテナ 20250623 
 function templateImages(id,city,detail,image){
     const wrapper = document.createElement('div');
 
