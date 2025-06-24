@@ -7,7 +7,7 @@ const imagesObj = [
         'city': '福岡市東区',
         'title': '【福岡限定 箱崎駅前公園】平日ランチ',
         'image': '1820044_s.jpg', 
-        'detail': 'testtestestestestetesttesggggggggggggggggggggwwwwwwwwwwwwwwwwwttestestestestetesttesttestestestestetesttesttestestestestetesttesttestestestestetest',
+        'detail': 'testtestestestestetesttesaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawttestestestestetesttesttestestestestetesttesttestestestestetesttesttestestestestetest',
         'connection': '公園,ランチ,駅前',
     },
     {
@@ -15,7 +15,7 @@ const imagesObj = [
         'city': '福岡市西区',
         'title': '【今宿】平日ランチ',
         'image': '3523387_s.jpg', 
-        'detail': 'testtestestestestetesttesttestestestestetesttesttestestestestetesttesttestestestestetesttesttestestestestetest',
+        'detail': 'testtestestestettttttttttttaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaattttttttttttttstetesttesttestestestestetesttesttestestestestetesttesttestestestestetesttesttestestestestetest',
         'connection': 'ランチ,学校・専門学校',
     },
     {
@@ -23,7 +23,7 @@ const imagesObj = [
         'city': '福岡市西区',
         'title': '【下山門】平日ランチ',
         'image': '24415419_s.jpg', 
-        'detail': 'testtestestestestetesttesttestestestestetesttesttestestestestetesttesttestestestestetesttesttestestestestetest',
+        'detail': 'testtestestestestetestfffffffffffffffffffftesttestestestestetesttesttestestestestetesttesttestestestestetesttesttestestestestetest',
         'connection': '団地,ランチ',
     },
     {
@@ -39,7 +39,7 @@ const imagesObj = [
         'city': '福岡市博多区',
         'title': '【呉服町商業ビルセンター前】平日ランチ',
         'image': '28444681_s.jpg', 
-        'detail': 'testtestestestestetesttesttestestestestetesttesttestestestesgsfdgsgstetesttesttestestestestetesttesttestestestestetest',
+        'detail': 'testtestestestestetesttesttestestestestetesttesttestestestesgsfdgsgstfffffffffffffffffffffffetesttesttestestestestetesttesttestestestestetest',
         'connection': '公園,自治体',
     },
     {
@@ -47,7 +47,7 @@ const imagesObj = [
         'city': '福岡市中央区',
         'title': '【今泉】平日ランチ',
         'image': '28794127_s.jpg', 
-        'detail': 'testtestestestestetesttesttestestestestetesttesttestestessfdgggggggggggggggggggggggggggggggggggggggggggggggggggsrtestetesttesttestestestestetesttesttestestestestetest',
+        'detail': 'testtestestestestetesttesttestestestestetesttesttestestessfda4444444444444444444444444srtestetesttesttestestestestetesttesttestestestestetest',
         'connection': '公園,駅前,ランチ',
     },
 ];
