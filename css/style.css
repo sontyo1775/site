@@ -9,12 +9,16 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: blue;
+    color: rgba(134, 134, 207, 0.493);
 }
 
 .header-color {
     background-color: rgba(227, 225, 225, 0.318);
 }
+.footer-color {
+    background-color: rgba(227, 225, 225, 0.318);
+}
+
 .header-text-color {
     color: black;
 }

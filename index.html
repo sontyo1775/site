@@ -8,45 +8,59 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<div class="header-color">
-  <div class="d-flex justify-content-between align-items-center">
+<nav class="navbar navbar-expand-lg header-color">
+  <div class="container-fluid">
+    
     <!-- ロゴ -->
-    <a href="#"><img src="./images/header_logo.png" alt="" class="header-image-logo"  ></a>
+    <a class="navbar-brand" href="#">
+      <img src="./images/header_logo.png" alt="" class="header-image-logo">
+    </a>
 
-    <!-- ナビゲーション -->
-    <ul class="nav nav-underline text-center align-items-center mb-0">
-      <li class="nav-item">
-        <a class="nav-link px-2 d-block header-text-color" href="#">
-          <span class="small">キッチンカーを</span><br><span class="fw-bold">出店したい</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link px-2 d-block header-text-color" href="#">キッチンカーの<br><span>販売・買取</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link px-2 d-block header-text-color" href="#">キッチンカーの<br><span>セミナー</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link px-2 d-block header-text-color" href="#">キッチンカーを<br><span>イベントに呼ぶ</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link px-2 d-block header-text-color" href="#">キッチンカーを<br><span>空きスペースに呼ぶ</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link px-2 d-block header-text-color" href="#">キッチンカーの<br><span>出店場所一覧</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link px-2 d-block header-text-color" href="#">キッチンカー<br><span>一覧</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link px-2 d-block header-text-color" href="#">モビルマガジン</a>
-      </li>
-    </ul>
+    <!-- トグルボタン（スマホ用） -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <!-- お問い合わせボタン -->
-    <button class="btn btn-color mx-2">お問い合わせ</button>
+    <!-- メニュー本体 -->
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+
+      <!-- ナビゲーション -->
+      <ul class="navbar-nav mx-auto text-center nav-underline my-4">
+        <li class="nav-item">
+          <a class="nav-link header-text-color" href="#"><span class="small">キッチンカーを</span><br><span class="fw-bold">出店したい</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link header-text-color" href="#"><span class="small">キッチンカーの</span><br><span class="fw-bold">販売・買取</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link header-text-color" href="#"><span class="small">キッチンカーの</span><br><span class="fw-bold">セミナー</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link header-text-color" href="#"><span class="small">キッチンカーを</span><br><span class="fw-bold">イベントに呼ぶ</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link header-text-color" href="#"><span class="small">キッチンカーを</span><br><span class="fw-bold">空きスペースに呼ぶ</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link header-text-color" href="#"><span class="small">キッチンカーの</span><br><span class="fw-bold">出店場所一覧</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link header-text-color" href="#"><span class="small">キッチンカー</span><br><span class="fw-bold">一覧</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link header-text-color" href="#"><span class="small">モビル</span><br><span class="fw-bold">マガジン</span></a>
+        </li>
+      </ul>
+
+      <!-- お問い合わせボタン -->
+      <div class="d-flex d-flex justify-content-center">
+        <button class="btn btn-color">お問い合わせ</button>
+      </div>
+    </div>
   </div>
-</div>
+</nav>
+
 
 <div class="container py-3" style="max-width: 1000px;">
   <nav aria-label="breadcrumb">
@@ -56,8 +70,8 @@
   </ol>
   </nav>
   <div>
-    <div><h1>キッチンカー出店場所一覧</h1></div>
-    <div>「駅前」や「大学」といった人通りの多い場所から、「団地」などの隠れた穴場スポットまで、キッチンカー（移動販売車）の出店先は多種多様。<br>あなたの出店スタイルにぴったりなロケーションが、全国各地できっと見つかります。</div>
+    <div class="text-center"><h1>キッチンカー出店場所一覧</h1></div>
+    <div class="text-center my-4">「駅前」や「大学」といった人通りの多い場所から、「団地」などの隠れた穴場スポットまで、キッチンカー（移動販売車）の出店先は多種多様。<br>あなたの出店スタイルにぴったりなロケーションが、全国各地できっと見つかります。</div>
     <!-- form -->
     <div class="d-flex justify-content-center align-items-center">
       <div class="dropdown mx-2">
@@ -96,7 +110,7 @@
 </div>
 
 <!-- footer -->
-<div class="header-color">
+<div class="footer-color">
   <div class="d-flex justify-content-between align-items-center">
         aa
   </div>
