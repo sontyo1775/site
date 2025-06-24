@@ -6,14 +6,12 @@
     <title>キッチンカー出店場所</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-
 </head>
 <body>
 <div class="header-color">
   <div class="d-flex justify-content-between align-items-center">
-    
     <!-- ロゴ -->
-    <img src="./images/header_logo.png" alt="" class="header-image-logo"  >
+    <a href="#"><img src="./images/header_logo.png" alt="" class="header-image-logo"  ></a>
 
     <!-- ナビゲーション -->
     <ul class="nav nav-underline text-center align-items-center mb-0">
@@ -51,10 +49,59 @@
 </div>
 
 <div class="container py-3" style="max-width: 1000px;">
-    <div id="test" class="d-flex flex-column flex-md-row flex-wrap justify-content-between align-items-center"></div>
+  <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">ホーム</a></li>
+    <li class="breadcrumb-item active" aria-current="page">キッチンカーを出店場所</li>
+  </ol>
+  </nav>
+  <div>
+    <div><h1>キッチンカー出店場所一覧</h1></div>
+    <div>「駅前」や「大学」といった人通りの多い場所から、「団地」などの隠れた穴場スポットまで、キッチンカー（移動販売車）の出店先は多種多様。<br>あなたの出店スタイルにぴったりなロケーションが、全国各地できっと見つかります。</div>
+    <!-- form -->
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="dropdown mx-2">
+      <button id="area-text" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        九州エリア
+      </button>
+        <ul id="area-dropdown" class="dropdown-menu"></ul>
+      </div>
+      <div class="dropdown mx-2">
+      <button id="town-text" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" disabled>
+        市町村
+      </button>
+        <ul id="town-dropdown" class="dropdown-menu"></ul>
+      </div>
+      <div class="dropdown mx-2">
+      <button id="category-text" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" >
+        カテゴリ
+      </button>
+        <ul id="category-dropdown" class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">選択してください</a></li>
+          <li><a class="dropdown-item" href="#">常設</a></li>
+          <li><a class="dropdown-item" href="#">イベントく</a></li>
+        </ul>
+      </div>
+      <div class="dropdown mx-2">
+      <button id="tag-text" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" >
+        タグ
+      </button>
+        <ul id="tag-dropdown" class="dropdown-menu">
+
+        </ul>
+      </div>
     </div>
+  </div>
+  <div id="image-container" class="d-flex flex-column flex-md-row flex-wrap justify-content-between align-items-center"></div>
 </div>
-<script src="./js/main.js"></script>
+
+<!-- footer -->
+<div class="header-color">
+  <div class="d-flex justify-content-between align-items-center">
+        aa
+  </div>
+</div>
+<script type="module" src="./js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
