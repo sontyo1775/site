@@ -1,4 +1,5 @@
 import { Aria } from './aria.js';
+import { Tag } from './tag.js';
 
 // イメージオブジェクト
 const imagesObj = [
@@ -52,6 +53,12 @@ const imagesObj = [
     },
 ];
 const imageContainer = document.querySelector('#image-container');
+const searchBtn = document.querySelector('#search-text');
+const areaText = document.querySelector('#area-text');
+const townText = document.querySelector('#town-text');
+const tagText = document.querySelector('#tag-text');
+let areaFlg = false;
+let tagFlg = false;
 
 imagesObj.forEach(function(obj){
 
@@ -74,9 +81,37 @@ imagesObj.forEach(function(obj){
 
 
 // ドロップダウン処理
-let aria = new Aria();
-aria.cityDropdown();
-aria.cityClick();
+let area = new Aria();
+area.cityDropdown();
+areaFlg = area.cityClick();
+
+console.log("area  "+areaFlg);
+// タグドロップダウン表示
+let tag = new Tag();
+tagFlg = tag.tagList();
+
+// この条件で検索を押下処理
+searchBtn.addEventListener('click', function(){
+
+    let area = areaText.textContent.trim();
+    let town = townText.textContent.trim();
+    let tag = tagText.textContent.trim();
+
+    if (!areaText || !townText || !tagText) {
+        alert('要素が見つかりません。');
+        return;
+    }
+
+    if (!area || !town || !tag ||
+        area === 'エリア' || town === '市町村' || tag === 'タグ') {
+        alert('条件が不適切です。');
+        return;
+    }
+
+    alert('エリア：' + area + '\n' +
+        '市町村：' + town + '\n' +
+        'タグ：' + tag);
+})
 
 // Add イメージコンテナ 20250623 
 function templateImages(id,city,title,image,detail,connectionArry){

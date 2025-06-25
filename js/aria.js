@@ -117,6 +117,7 @@ export class Aria {
         const townText = document.querySelector('#town-text');
         const townDoropdown = document.querySelector('#town-dropdown');
         let kyusyus = this.Kyushu;
+        let townFlg = false;
 
         // 九州エリアボタン
         if(ariaDorpdown){

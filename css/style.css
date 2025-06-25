@@ -40,3 +40,6 @@ a:hover {
   object-fit: cover;
   width: 100%;
 }
+.inquiry-container {
+    background-color: antiquewhite;
+}

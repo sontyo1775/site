@@ -6,6 +6,7 @@
     <title>キッチンカー出店場所</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/36f564ae10.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg header-color">
@@ -26,7 +27,7 @@
     <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
 
       <!-- ナビゲーション -->
-      <ul class="navbar-nav mx-auto text-center nav-underline my-4">
+      <ul class="navbar-nav mx-auto text-center nav-underline my-1">
         <li class="nav-item">
           <a class="nav-link header-text-color" href="#"><span class="small">キッチンカーを</span><br><span class="fw-bold">出店したい</span></a>
         </li>
@@ -74,19 +75,19 @@
     <div class="text-center my-4">「駅前」や「大学」といった人通りの多い場所から、「団地」などの隠れた穴場スポットまで、キッチンカー（移動販売車）の出店先は多種多様。<br>あなたの出店スタイルにぴったりなロケーションが、全国各地できっと見つかります。</div>
     <!-- form -->
     <div class="d-flex justify-content-center align-items-center">
-      <div class="dropdown mx-2">
+      <div class="dropdown mx-1">
       <button id="area-text" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        九州エリア
+        エリア
       </button>
         <ul id="area-dropdown" class="dropdown-menu"></ul>
       </div>
-      <div class="dropdown mx-2">
+      <div class="dropdown mx-1">
       <button id="town-text" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" disabled>
         市町村
       </button>
         <ul id="town-dropdown" class="dropdown-menu"></ul>
       </div>
-      <div class="dropdown mx-2">
+      <!-- <div class="dropdown mx-1">
       <button id="category-text" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" >
         カテゴリ
       </button>
@@ -95,24 +96,52 @@
           <li><a class="dropdown-item" href="#">常設</a></li>
           <li><a class="dropdown-item" href="#">イベントく</a></li>
         </ul>
-      </div>
-      <div class="dropdown mx-2">
+      </div> -->
+      <div class="dropdown mx-1">
       <button id="tag-text" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" >
         タグ
       </button>
-        <ul id="tag-dropdown" class="dropdown-menu">
-
-        </ul>
+        <ul id="tag-dropdown" class="dropdown-menu"></ul>
       </div>
+    </div>
+    <div class="my-3 text-center">
+      <button id="search-text" class="btn btn-secondary" type="button">
+        この条件で検索
+      </button>
     </div>
   </div>
   <div id="image-container" class="d-flex flex-column flex-md-row flex-wrap justify-content-between align-items-center"></div>
 </div>
 
+<div class="mt-5 inquiry-container">
+  <div class="py-5 text-center">
+        <div >
+          <h1 class="my-2">お問い合わせ</h1>
+          <p class="my-2">キッチンカーを呼びたい、空きスペースを有効活用したい、お気軽にお問い合わせください。</p>
+        </div>
+        <div class="d-flex d-flex justify-content-center">
+          <div class="my-2">
+          <p><i class="fa-solid fa-truck px-2"></i>もびまで出店したい方はこちら</p>
+          <button id="" class="btn btn-secondary" type="button">
+          会員登録する
+          </button>
+          </div>
+          <div class="my-2">
+          <p><i class="fa-solid fa-landmark px-2"></i>場所を提供したい方はこちら</p>
+          <button id="" class="btn btn-secondary" type="button">
+          お問い合わせ
+          </button>
+          </div>
+        </div>
+  </div>
+</div>
+
+
+
 <!-- footer -->
 <div class="footer-color">
-  <div class="d-flex justify-content-between align-items-center">
-        aa
+  <div class="py-5">
+        <div class="text-center"><p>キッチンカー</p></div>
   </div>
 </div>
 <script type="module" src="./js/main.js"></script>
